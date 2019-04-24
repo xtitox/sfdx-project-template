@@ -1,0 +1,12 @@
+classpath
+.DS_Store
+.sfdx
+.project
+.salesforce
+.vscode
+.idea
+.tern-project
+.settings
+IlluminatedCloud/
+JWT/
+.todo*
