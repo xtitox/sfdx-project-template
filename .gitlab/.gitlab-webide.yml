@@ -1,0 +1,3 @@
+terminal:
+  script: sleep 60
+  image: ncino/ci-sfdx
