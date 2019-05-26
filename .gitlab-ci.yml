@@ -2,3 +2,6 @@ include:
   - project: 'sfdx/sfdx-cicd-template'
     file: '.gitlab-ci.yml'
     ref: stable
+
+# This yml file calls a pre-configured file for SFDX that is located in https://gitlab.com/sfdx/sfdx-cicd-template
+# To learn more about What the file does and how to configure your repository to work with this template review the readme in that repository
