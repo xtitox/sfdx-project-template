@@ -81,15 +81,16 @@ The `packageDirectories` filepath tells VS Code and Salesforce CLI where the met
 ]
 ```
 
-## Part 3: Making changes
+## Part 3: Input Gitlab CI/CD Pipeline Environment Variables
 
-To Start working you will need to create a branch and clone your repositry locally 
+TO DO @doug -- Which environment variables are needed where to get the values, which ones have sensative information, which env. variables need to be protected and default value for those variables. 
 
-## Part 4: Setting up GitLab Pipelines
+## Part 4: Develop your App
 
+TO DO : @Doug -- Disclaimer that this has a sample 'hello world' app already pre-installed that can be easily removed/updated. 
 
+Overview on what needs to be done if a developer wanted to develop their own app. 
 
 ## Part 5: Deploying to Production
 
-Deploy your changes to production using [packaging](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp.htm) 
-
+Simply commit a change to your repository and see the GitLab CI/CD pipeline kick off!
