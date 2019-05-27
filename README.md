@@ -90,7 +90,7 @@ TO DO @doug -- Which environment variables are needed where to get the values, w
 TO DO : @Doug -- Disclaimer that this has a sample 'hello world' app already pre-installed that can be easily removed/updated. 
 
 Overview on what needs to be done if a developer wanted to develop their own app. 
-
+ 
 ## Part 5: Deploying to Production
 
 Simply commit a change to your repository and see the GitLab CI/CD pipeline kick off!
