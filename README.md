@@ -1,40 +1,40 @@
-# SFDX-Project-Template
+# Salesforce DX Project Template for GitLab Pipelines
 
-This guide helps Salesforce developers get started with GitLab and Salesforce Devlopment quickly including details on devlopment models, setting up CI/CD with GitLab pipelines, and how to deploy your final changes to production
+This guide helps Salesforce developers get started with GitLab and Salesforce Development quickly including details on development models, setting up CI/CD with GitLab pipelines, and how to deploy your final changes to production.
 
 # Part 1: Importing Project Templates
 
-To use this project template for a new [GitLab Project](https://docs.gitlab.com/ee/user/project/) follow the steps below: 
+To use this project template for a new [GitLab Project](https://docs.gitlab.com/ee/user/project/) follow the steps below:
 
 ### Step 1
 
-Login to [Gitlab.com](https://gitlab.com/users/sign_in) and navigate to the [projects tab](https://gitlab.com/dashboard/projects) at the top. 
+Log in to [GitLab.com](https://gitlab.com/users/sign_in). Need an account? You can [sign up](https://gitlab.com/users/sign_in) for a free GitLab account or [log in with Salesforce](https://gitlab.com/users/auth/salesforce).
 
-![Login to GitLab.com](./imgs/login.png)
+![Log in to GitLab.com](./images/login.png)
 
 ### Step 2
 
-Click on 'Projects' and then 'Your Projects' in the top navigation drop down pane. 
+Click on **Projects** and then **Your Projects** in the top navigation drop down pane.
 
-![New project nav](./imgs/project-nav.png) 
+![New project nav](./images/project-nav.png)
 
-Now click the [**New Project**](https://gitlab.com/projects/new) green button to create a new project. 
+Now click the [**New Project**](https://gitlab.com/projects/new) green button to create a new project.
 
-![Create a new Project button](./imgs/new-project-button.png)
+![Create a new Project button](./images/new-project-button.png)
 
-### Step 3 
+### Step 3
 
-Navigate to **Import Project** at the top of the page. Then click the **git Repo by URL** button. 
+Click **Import Project** tab at the top of the page, then click the **git Repo by URL** button.
 
-Enter in [this project's](https://gitlab.com/sfdx/sfdx-project-template/tree/master) git URL : [https://gitlab.com/sfdx/sfdx-project-template.git](https://gitlab.com/sfdx/sfdx-project-template.git) in the `Git repository URL` form field. 
+Enter [this project's](https://gitlab.com/sfdx/sfdx-project-template) git URL: [https://gitlab.com/sfdx/sfdx-project-template.git](https://gitlab.com/sfdx/sfdx-project-template.git) in the `Git repository URL` form field.
 
-![Import by git Repo URL](./imgs/new-project.png)
+![Import by git Repo URL](./images/new-project.png)
 
 ### Step 4
 
-Give your project a name and optionally a description to get started. Finally after confirming your **Visibility Level** for your new project, click the **Create Project** green button to initiate. 
+Give your project a name and optionally a description to get started. Finally, after confirming your **Visibility Level** for your new project, click the **Create Project** green button to initiate.
 
-![Initializing Project](./imgs/new-project-2.png)
+![Initializing Project](./images/new-project-2.png)
 
 After completing the steps above, you'll have a new project initialized under your GitLab account.
 
@@ -83,14 +83,14 @@ The `packageDirectories` filepath tells VS Code and Salesforce CLI where the met
 
 ## Part 3: Input Gitlab CI/CD Pipeline Environment Variables
 
-TO DO @doug -- Which environment variables are needed where to get the values, which ones have sensative information, which env. variables need to be protected and default value for those variables. 
+TO DO @doug -- Which environment variables are needed where to get the values, which ones have sensative information, which env. variables need to be protected and default value for those variables.
 
 ## Part 4: Develop your App
 
-TO DO : @Doug -- Disclaimer that this has a sample 'hello world' app already pre-installed that can be easily removed/updated. 
+TO DO : @Doug -- Disclaimer that this has a sample 'hello world' app already pre-installed that can be easily removed/updated.
 
-Overview on what needs to be done if a developer wanted to develop their own app. 
- 
+Overview on what needs to be done if a developer wanted to develop their own app.
+
 ## Part 5: Deploying to Production
 
 Simply commit a change to your repository and see the GitLab CI/CD pipeline kick off!

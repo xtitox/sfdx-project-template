@@ -10,5 +10,6 @@ classpath
 *.iml
 IlluminatedCloud
 node_modules
+package-lock.json
 JWT
 .todo*

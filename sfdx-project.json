@@ -3,7 +3,7 @@
       {
          "path": "force-app",
          "default": true,
-         "package": "PACKAGE_NAME",
+         "package": "GitLabPipelinesPkg",
          "versionName": "Version 1.0",
          "versionNumber": "1.0.0.NEXT"
       }
