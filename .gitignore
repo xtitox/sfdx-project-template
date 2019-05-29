@@ -7,6 +7,8 @@ classpath
 .idea
 .tern-project
 .settings
-IlluminatedCloud/
-JWT/
+*.iml
+IlluminatedCloud
+node_modules
+JWT
 .todo*
