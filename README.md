@@ -1,6 +1,6 @@
 # Salesforce DX Project Template for GitLab Pipelines
 
-This guide helps Salesforce developers get started with GitLab and Salesforce Development quickly including details on development models, setting up CI/CD with GitLab pipelines, and how to deploy your final changes to production.
+This guide helps Salesforce developers get started with GitLab and Salesforce development quickly including details on development models, setting up CI/CD with GitLab pipelines, and how to deploy your final changes to production.
 
 # Part 1: Importing Project Templates
 
@@ -8,7 +8,7 @@ To use this project template for a new [GitLab Project](https://docs.gitlab.com/
 
 ### Step 1
 
-Log in to [GitLab.com](https://gitlab.com/users/sign_in). Need an account? You can [sign up](https://gitlab.com/users/sign_in) for a free GitLab account or [log in with Salesforce](https://gitlab.com/users/auth/salesforce).
+Log in to [GitLab.com](https://gitlab.com/users/sign_in). Need an account? You can [sign up](https://gitlab.com/users/sign_in) for a free GitLab account or log in with a Salesforce account.
 
 ![Log in to GitLab.com](./images/login.png)
 
