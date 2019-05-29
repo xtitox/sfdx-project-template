@@ -1,6 +1,6 @@
 include:
   - project: 'sfdx/sfdx-cicd-template'
-    file: '.gitlab-ci.yml'
+    file: 'Salesforce.gitlab-ci.yml'
     ref: stable
 
 # This yml file calls a pre-configured file for SFDX that is located in https://gitlab.com/sfdx/sfdx-cicd-template
