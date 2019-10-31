@@ -2,7 +2,7 @@ include:
   - project: 'sfdx/sfdx-cicd-template'
     file: 'Salesforce.gitlab-ci.yml'
     ref: stable
- - template: SAST.gitlab-ci.yml
+  - template: SAST.gitlab-ci.yml
 
 sast:
   # Run Security scanning job 'SAST' within the 'preliminary-testing' stage
