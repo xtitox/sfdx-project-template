@@ -2,6 +2,19 @@ include:
   - project: 'sfdx/sfdx-cicd-template'
     file: 'Salesforce.gitlab-ci.yml'
     ref: stable
+ - template: SAST.gitlab-ci.yml
 
+sast:
+  # Run Security scanning job 'SAST' within the 'preliminary-testing' stage
+  stage: preliminary-testing
+  # Override executing any pre-scripts and SFDX helper functions
+  before_script:
+    - echo "Skipping sfdx helper scripts"
+  # Run only APEX and Secret scanning and run each analyzer as an isolated job instead of single job in DinD
+  variables:
+    SAST_DEFAULT_ANALYZERS: "pmd-apex,secrets"
+    SAST_DISABLE_DIND: "true"
+   
 # This yml file calls a pre-configured file for Salesforce DX projects that is located in https://gitlab.com/sfdx/sfdx-cicd-template.
+
 # To learn more about what the yml file does and how to configure your repository to work with this template, review the README in the template repository.
